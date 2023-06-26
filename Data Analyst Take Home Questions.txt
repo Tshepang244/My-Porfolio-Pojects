@@ -1,0 +1,53 @@
+This test will assess your technical skills (Data Analysis, Python, SQL) & ability to derive insights from data.
+All questions asked in this test are linked to a dataset that can be found here:
+https://drive.google.com/file/d/1hv49ztZtH-GPff-L1eExBWgwFrbnSOPd
+
+All questions in this section are to be answered based on the data provided in the link above. Please download the dataset onto your local computer & answer the questions based on the analysis you perform.
+
+Dataset description: 
+The data consists of 100000 orders placed by customers over the date range of 2021-01-15 and 2021-06-15. 
+The following column fields are available: 
+Date -- the date an order was placed on (format YYYY-MM-DD).
+CustomerId - an alpha numeric field representing a unique customer.
+OrderId - a numeric field representing a unique order number.
+RestaurantId - a numeric field representing the restaurant that an order was placed at.
+Which customer id placed the fourth most orders during period?
+*
+What was the average number of orders placed by all customers over the period, rounded off to 3 decimal places?
+*
+How many customers only placed 1 order during the period?
+*
+For customers who placed at least 3 orders, what was the average number of days between their first & third order, rounded off to 3 decimal places?
+*
+How many customers placed MORE than 8 orders?
+*
+For customers who placed at least 8 orders, what was the average number of days between their third and eighth order, rounded off to 3 decimal places?
+*
+Which date had the seventh most orders placed overall? Answer format: YYYY-MM-DD
+*
+Which restaurant id had the highest number of orders placed in June 2021?
+*
+Write & paste a python function called “ten_highest” that will take a pandas DataFrame as an argument & return a List of the 10 highest ordering customer ids for the period below. Assume that pandas has been imported under the alias pd.
+*
+Assuming that the data is available as a database table called “orders”, write & paste a SQL statement that will display only the 10 restaurant ids with highest orders for the period.
+*
+Insights Section
+In this subsection, your ability to derive insights from the data is assessed. In some questions, long form answers are expected.
+Insight Q1.0: Assuming that Mondays to Thursdays are regarded as Weekdays, Fridays to Sundays are regarded as Weekends. Which of the two periods (Weekdays or Weekends) have had the most overall orders over the period?
+*
+Weekdays
+Weekends
+Insight Q1.1: Name 2 possible reasons why the period in Q1.0 has the most orders?
+*
+Insight Q2.0: Count the number of restaurants with at least 1 order for each month over the period. Based on the calculations performed above, what type of trend do you observe in the number of restaurants with orders overtime (increasing, stable, declining)?
+*
+Increasing
+Stable
+Declining
+Insight Q2.1: Name 1 reason why you reach the conclusion above?
+*
+Insight Q2.2: If you apply a straight line equation on the data in 1, at what rate / slope / gradient is the trend changing at, rounded off to 3 decimal places? Example answers: -0.562 or 1.323
+*
+Insight Q3.0: What is the percentage difference between the number of restaurants with orders in February 2021 & March 2021?
+*
+Insight Q4.0: Compare the daily total orders between first 28 days of February & March 2021. What is the overall average daily difference in orders between the 2 months? Example answers: -50.6 or 201.32
